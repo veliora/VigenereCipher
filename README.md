@@ -1,4 +1,6 @@
-How It Works
+# Vigenere Cipher
+
+# How It Works
 1. Choose a keyword
 Example: KEY
 
@@ -21,10 +23,10 @@ Cipher	R	I	J	V	S
 
 Encrypted Text: RIJVS
 
-Decryption
+# Decryption
 To decrypt, just reverse the shift:
 
 Subtract the keyword letter's value from the ciphertext letter's value.
 
-Security
+# Security
 The Vigenère cipher was once considered very secure, but it can be broken with frequency analysis and known-plaintext attacks. It's more secure than Caesar ciphers, but not suitable for modern use.
